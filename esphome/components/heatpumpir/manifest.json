@@ -1,0 +1,8 @@
+{
+  "domain": "heatpumpir",
+  "name": "Heat Pump IR",
+  "description": "Support for various heat pump IR protocols, including Philco PHS32",
+  "dependencies": [],
+  "codeowners": ["@lhungerbuhler"],
+  "requirements": []
+}

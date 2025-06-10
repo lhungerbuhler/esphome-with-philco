@@ -51,6 +51,7 @@ const std::map<Protocol, std::function<HeatpumpIR *()>> PROTOCOL_CONSTRUCTOR_MAP
     {PROTOCOL_PANASONIC_JKE, []() { return new PanasonicJKEHeatpumpIR(); }},                 // NOLINT
     {PROTOCOL_PANASONIC_LKE, []() { return new PanasonicLKEHeatpumpIR(); }},                 // NOLINT
     {PROTOCOL_PANASONIC_NKE, []() { return new PanasonicNKEHeatpumpIR(); }},                 // NOLINT
+    {PROTOCOL_PHILCO_PHS32, []() { return new PhilcoPHS32HeatpumpIR(); }},                   // NOLINT
     {PROTOCOL_SAMSUNG_AQV, []() { return new SamsungAQVHeatpumpIR(); }},                     // NOLINT
     {PROTOCOL_SAMSUNG_FJM, []() { return new SamsungFJMHeatpumpIR(); }},                     // NOLINT
     {PROTOCOL_SHARP, []() { return new SharpHeatpumpIR(); }},                                // NOLINT
